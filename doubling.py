@@ -23,15 +23,15 @@ num_times_bet = 100
 
 #0 - 5000
 range_1 = 0
-#5100 - 10000
+#5001 - 10000
 range_2 = 0
-#10100 - 15000
+#10001 - 15000
 range_3 = 0
-#15100 - 20000
+#15001 - 20000
 range_4 = 0
-#20100 - 25000
+#20001 - 25000
 range_5 = 0
-#25100 - 30000
+#25001 - 30000
 range_6 = 0
 #more than 30000
 range_7 = 0
@@ -54,10 +54,10 @@ for x in range(trys):
         range_7 += 1
 
 print("Collation of trials")        
-print("0 - 50: " + str((range_1 / trys) * 100) + "%")
-print("51 - 100: " + str((range_2 / trys) * 100) + "%")
-print("101 - 150: " + str((range_3 / trys) * 100) + "%")
-print("151 - 200: " + str((range_4 / trys) * 100) + "%")
-print("201 - 250: " + str((range_5 / trys) * 100) + "%")
-print("251 - 300: " + str((range_6 / trys) * 100) + "%")
-print("More than 300: " + str((range_7 / trys) * 100) + "%")
+print("0 - 5000: " + str((range_1 / trys) * 100) + "%")
+print("5001 - 10000: " + str((range_2 / trys) * 100) + "%")
+print("10001 - 15000: " + str((range_3 / trys) * 100) + "%")
+print("15001 - 20000: " + str((range_4 / trys) * 100) + "%")
+print("20001 - 25000: " + str((range_5 / trys) * 100) + "%")
+print("25001 - 30000: " + str((range_6 / trys) * 100) + "%")
+print("More than 30000: " + str((range_7 / trys) * 100) + "%")
